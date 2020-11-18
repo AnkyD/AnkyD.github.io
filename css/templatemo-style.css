@@ -1303,8 +1303,7 @@ Custom media queries
 #newsletter2 .box5{
   width: 90%;
   height: 350px;
-	background-color:;
-	top: 50px;
+  top: 50px;
   z-index: 5;
   position: absolute;
   border-style: solid;
