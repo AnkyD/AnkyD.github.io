@@ -1,10 +1,6 @@
 /* 
 
-Journey Template 
-http://www.templatemo.com/tm-511-journey
-
-Primary color (light blue)  : #69c6ba
-Highlight color (pink)		: #c66995
+Karibo India 
 --------------------------------------
 
 */
@@ -18,6 +14,7 @@ body {
 a, button { transition: all 0.3s ease; }
 a:hover,
 a:focus {
+	color: #D8C794;
 	text-decoration: none;
 	outline: none;
 }
@@ -57,14 +54,14 @@ p:last-child { margin-bottom: 0; }
 .tm-top-bar .navbar-expand-lg .navbar-nav .nav-link { padding: 50px 35px; }
 
 .tm-top-bar {
-    position: fixed;
+    position: ;
     top: 0;
     left: 0;
-    width: 100%;
+    width: auto;
     padding: 0;
     z-index: 10000;
-    transition: all 0.2s ease-in-out;
-    background: white;
+    transition: ;
+    background: #ffffff;
 }
 
 .tm-top-bar.active {
@@ -75,6 +72,7 @@ p:last-child { margin-bottom: 0; }
 .tm-top-bar.active .navbar-brand { font-size: 1.4rem; }
 
 .tm-top-bar .navbar-brand img {
+	
     width: 200px;
     height: auto;
 }
@@ -114,6 +112,7 @@ p:last-child { margin-bottom: 0; }
     cursor: pointer;
 }
 
+
 .tm-banner-title {
     font-size: 3rem;
     margin-bottom: 10px;
@@ -124,7 +123,7 @@ p:last-child { margin-bottom: 0; }
     letter-spacing: 1px;
 }
 
-.tm-banner-header { color: white; }
+.tm-banner-header { color: ; }
 .tm-banner-overlay {
     z-index: 1;
     height: 100%;
@@ -137,14 +136,20 @@ p:last-child { margin-bottom: 0; }
 }
 .tm-banner-bg {
     background-color: black;
-    min-height: 570px;
+    min-height: 550px;
     position: relative;
+	margin-top: -20px;
 }
 .tm-banner-row { 
     position: relative;
-    z-index: 100;
+    z-index: 40;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 30px;
+}
+@media screen and max-width(727px){
+    .tm-banner-row.heading{
+	margin-top: -90px;
+	}
 }
 .tm-banner-row-header { text-align: center; }
 .tm-down-arrow-link { 
@@ -1185,20 +1190,18 @@ Custom media queries
   height: auto;
   background-color: white;
   position: absolute;
-	top: 20px;
+	top: 50px;
   left: 50px;
   z-index: 5;
 	border-style: solid;
-	border-width:5px;
   border-color: #BF953F;
 		
 
 }
 #newsletter1 .box4 {
     width: 400px;
-    height: 400px;
+    height: 0px;
 		z-index: 2;
-		background-color:black;
 }
 
 #book {
@@ -1303,10 +1306,9 @@ Custom media queries
 #newsletter2 .box5{
   width: 90%;
   height: 350px;
-  top: 50px;
+	top: 50px;
   z-index: 5;
   position: absolute;
-  
 		
 
 }
@@ -1317,7 +1319,7 @@ Custom media queries
     margin-bottom: 81px;
     position: relative;
 		z-index: 2;
-		background-color:;
+		
 }
 
 @media (min-width: 1200px) {
@@ -1356,7 +1358,7 @@ Custom media queries
 #newsletter7{
   padding:15px;
   color:black;
-  background:white;
+  background:#000000;
 }
 
 #newsletter7 h1{
@@ -1583,4 +1585,200 @@ footer{
   .carousel-container {
     width: 100%;
   }
+}
+
+.circle {
+  background: #ddd;
+  border-radius: 20%;
+  height: 0;
+  padding-bottom: 100%;
+  width: 100%;
+}
+#box {
+    height: auto;
+    overflow: auto;
+    width: 100%;
+}
+.testimonialImage{
+
+    -webkit-box-shadow: 0px 93px 252px -63px rgba(0,0,0,1);
+
+    -moz-box-shadow: 0px 93px 252px -63px rgba(0,0,0,1);
+
+    box-shadow: 0px 93px 252px -63px rgba(0,0,0,1);
+
+    /*margin-top: 30px;*/
+
+    z-index:99;
+
+    /*margin: 30px;*/
+
+    height: 100px;
+
+    width:100px;
+
+    border-radius: 50%;
+
+}
+.testimonialImage {
+
+        -webkit-box-shadow: 10px 10px 300px -76px rgba(179, 162, 75, 1);
+
+        -moz-box-shadow: 10px 10px 300px -76px rgba(179, 162, 75, 1);
+
+        box-shadow: 10px 10px 300px -76px rgba(179, 162, 75, 1);
+
+        /*margin-top: 30px;*/
+
+        height: 50px;
+
+        width: 50px;
+
+        border-radius: 50%;
+
+    }
+.testimonialImage{
+
+    position: absolute; bottom: 0px; right: -20px; z-index: 9; width: 100px !important;height: 100px !important; border-radius: 50%
+
+}
+
+@media (max-width:767px){
+.testimonialImage{
+
+        position: absolute; bottom: 0px; right: -10px; z-index: 9; width: 120px !important;
+
+        height: 120px !important; border-radius: 50%
+
+    }
+}
+.testimonialBase{
+	border-radius:5%;
+	position: relative;
+	background: #000000;
+	height: 100%;
+	min-height: 250px;
+	display: flex;
+	align-items: center;
+	width:500px;
+}
+.plr30{
+	padding-left: 50px;
+}
+
+
+@media screen and (max-width: 1080px) {
+   .testimonialBase{
+		height: auto;
+		width: auto;
+	}
+	.boxx.text-res{
+	    font-size: none;
+	}
+}
+
+@media screen and (max-width: 1033px) {
+    .testimonialBase{
+		height: auto;
+		width: auto;
+	}
+	.boxx.text-res{
+	    font-size: none;
+	}
+}
+
+@media screen and (max-width: 991px) {
+    .testimonialBase{
+		height: auto;
+		width: auto;
+	}
+	.boxx.text-res{
+	    font-size: none;
+	}
+}
+
+@media screen and (max-width: 986px) {
+    .testimonialBase{
+		height: auto;
+		width: auto;
+	}
+	.boxx.text-res{
+	    font-size: none;
+	}
+
+}
+
+@media screen and (max-width: 860px) {
+    .testimonialBase{
+		height: auto;
+		width: auto;
+	}
+	.boxx.text-res{
+	    font-size: none;
+	}
+}
+
+@media screen and (max-width: 826px) {
+
+    .testimonialBase{
+		height: auto;
+		width: auto;
+	}
+	.boxx.text-res{
+	    font-size: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+      .testimonialBase{
+		height: auto;
+		width: auto;
+		height: 220px;
+		
+	}
+	.mediafont{
+		font-size: 20px;
+		margin-top:-100px;
+	}
+	.plr30{
+		padding-right:0px;
+		padding-left: 30px;
+		
+	}
+	.boxx.text-res{
+	    font-size: none;
+	}
+}
+
+
+.relativeDiv{
+	position: relative;
+}
+
+.boxx{
+	width: 105%;
+	float: left;
+	margin: 0px 0px;
+	background-color: #ffffff;
+	padding-left: 10px;
+	padding-top:10px;
+	padding-bottom: 17px;
+	padding-right: 10px;
+	border-radius: 10px;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+}
+.boxx .img1{
+	width: 100%;
+	border-radius:  px;
+	margin-bottom: 0px;
+	padding-right:10px;
+	object-fit: cover;
+	
+}
+.boxx p{
+	margin-top: -20px;
+	line-height: 28px;
+	height: 110px;
+	overflow: hidden;
+	
 }
