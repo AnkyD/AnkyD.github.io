@@ -12,9 +12,269 @@
     <link rel="stylesheet" href="css/templatemo-style.css"> <!-- Templatemo style -->
     <link rel="stylesheet" href="css/footer.css"> <!-- Footer style -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- icons in footer -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<style>
+#more {
+    display:none;
+}
+#more1 {display:none;}
+
+.card-read-more {
+  border-top: 1px solid #D4D4D4;
+}
+.card-read-more button {
+  text-decoration: none !important;
+  padding:10px;
+  font-weight:600;
+  text-transform: uppercase
+}
+.card {
+  display: block;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    transition: box-shadow .25s;
+}
+.card:hover {
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+@media screen and (width: 1024px){
+.showondesktop img{
+     margin-left: 520px;
+}
+.makelipstickhead img{
+	 width: 70%;
+}
+.foundershead img{
+	 width: 50%;
+}
+.faqhead img{
+     width: 20%;
+}
+}
+@media screen and (max-width: 991px) {
+     /* start of large tablet styles */
+.newhead{
+	 width: 100%;
+	 }
+.blue-column p{
+     font-size: 18px;
+}
+.text-10head2{
+     width: 100%;
+}
+.fonthead2 p{
+     font-size: 18px;
+}
+.booknowtext p{
+     font-size: 18px;
+}
+.carouselsteps{
+     font-size: 17px;
+}
+.videobox{
+      margin-left: 35px;
+}
+.makelipstickhead img{
+	 width: 100%;
+}
+.appealhead img{
+     width: 70%;
+}
+.appealtext p{
+     font-size: 18px;
+}
+.foundershead img{
+	 width: 70%;
+}
+.founderstext p{
+     font-size: 17px;
+}
+.faqhead img{
+     width: 25%;
+}
+}
+@media screen and (width: 768px){
+.showondesktop img{
+     margin-left: 370px;
+	 height: 140px;
+}
+.makelipstickhead img{
+	 width: 40%;
+}
+.footertext{
+     font-size: 10px;
+}
+}
+
+@media screen and (max-width: 767px) {
+     /* start of medium tablet styles */
+     /* Adding a fixed/percentage min-width could ensure that the image doesn't get too small */
+.newhead{
+	 width: 100%;
+	 }
+.blue-column p{
+     font-size: 17px;
+}
+.text-10head2{
+     width: 100%;
+}
+.fonthead2 p{
+     font-size: 17px;
+}
+.booknowtext p{
+     font-size: 17px;
+}
+.makelipstickhead img{
+     
+     width: 100%
+}
+.carouselsteps{
+     font-size: 5px;
+}
+.corousel{
+     padding-left: -20px;
+	 padding-right: -20px;
+}
+.carousel-control-prev{
+      margin-left: -20px;
+	  margin-top: 70px;
+	  height: 15px;
+	  width: 15px;
+}
+.carousel-control-next{
+      margin-right: -20px;
+	  margin-top: 70px;
+	  height: 15px;
+	  width: 15px;
+}
+
+.videobox{
+      margin-left: 25px;
+}
+.animalimg img{
+      width: 80%;
+	  height: 110px;
+}
+.makelipstickhead img{
+	 width: 90%;
+}
+.appealtext p{
+     font-size: 17px;
+}
+.foundershead img{
+	 width: 90%;
+}
+.founderstext p{
+     font-size: 15px;
+}
+.faqhead img{
+     width: 35%;
+}
+.footertext{
+     font-size: 9px;
+}
+}
+@media screen and (max-width: 479px) {
+     /* start of phone styles */
+     /* It's possible to hide the image if the screen becomes too small */
+.newhead{
+	 width: 100%;
+	 margin-top: 0px;
+	 }   
+.blue-column p{
+     font-size: 15px;
+}	 
+.text-10head2{
+     width: 100%;
+}
+.fonthead2 p{
+     font-size: 15px;
+}
+.booknowtext p{
+     font-size: 15px;
+}
+.makelipstickhead img{
+	 width: 100%;
+}
+.carouselsteps{
+     font-size: 5px;
+}
+.corousel{
+     padding-left: -20px;
+	 padding-right: -20px;
+}
+.carousel-control-prev{
+      margin-left: -20px;
+	  margin-top: 70px;
+	  height: 15px;
+	  width: 15px;
+}
+.carousel-control-next{
+      margin-right: -20px;
+	  margin-top: 70px;
+	  height: 15px;
+	  width: 15px;
+}
+.corouselname{
+      padding-top: 4px;
+      font-size: 10px;
+}
+.box6{
+      margin-top: -60px;
+}
+.videobox{
+      margin-left: 15px;
+}
+.animalimg img{
+      width: 100%;
+	  height: 120px;
+}
+.appealhead img{
+	 width: 90%;
+}
+.appealtext p{
+     font-size: 15px;
+}
+.foundershead img{
+	 width: 90%;
+}
+.founderstext p{
+     font-size: 15px;
+}
+.faqhead img{
+     width: 35%;
+}
+.footertext{
+     font-size: 10px;
+}
+}
+@media screen and (max-width: 320px) {
+.box6{
+      margin-top: -110px;
+}
+.videobox{
+      margin-left: 10px;
+}
+.animalimg img{
+      width: 100%;
+	  height: 110px;
+}
+.faqtext .boldtext{
+      font-size: 13px;
+}
+.faqtext lighttext{
+      font-size: 12px;
+}
+.footertext{
+      font-size: 8px;
+}
+}
+</style>
 	
 </head>
-
 <body>
     <div class="tm-main-content" id="top">
         <div class="tm-top-bar-bg"></div>
@@ -41,9 +301,9 @@
                                 <div class="col-12 p-0">
                                     <div class="some-page-wrapper">
                                         <div class="row m-0">
-										    <div class="d-flex align-items-center container-fluid">
-											    <img src="img/new.png" width="100%" height="auto" style="margin-top:-20px; 
-													margin-bottom:10px"/>
+										    <div class="d-flex align-items-center container-fluid text-center">
+											    <img src="img/new.png" width="80%" height="auto" style="margin-top:-40px; 
+													margin-bottom:10px" class="newhead center-block imh-responsive"/>
 											</div>
                                             <div class='col-12 col-xl-6'>
                                                 <div class='green-column d-flex align-items-center'>
@@ -88,33 +348,38 @@
 
             <section id="showcase1">
                 <div class="container">
-                    <img src="img/text-10.png" width="60%" height="auto" style="margin-top:15px; margin-bottom:px" class="img-responsive5"/>
+                    <img src="img/text-10.png" width="50%" height="auto" style="margin-top:15px; margin-bottom:px" class="img-responsive5 text-10head2"/>
 
                 </div>
             </section>
 
             <section id="newsletter1">
-                <div style="margin-top:20px"><p class="text-center responsive" style="font-family:alto regular; color:#ffffff; font-size:20px; text-align:justify">
+                <div style="margin-top:20px" class="fonthead2">
+				<p class="text-justify mx-auto">
 				At Karibo, we believe that beauty should be distinct and diverse - with no set shade, shape or outline. 
-				</p>
-				<p class="text-center responsive" style="font-family:alto regular; color:#ffffff; font-size:20px; text-align:justify; margin-top:-10px">
+				
 				Our motto is to create beauty organically and therefore, only use natural elements.
 				</p>
 				</div>
-                <div class="container service-container" style="position: relative;">
+                <div class="container service-container">
                     <div class="d-flex flex-row flex-wrap justify-content-center">
                         <div class="main-box ml-0">
                             <div class="box4">
 							    <div class="boxx">
-								   <img src="img/events (2).jpeg" alt="imag1" class="img-responsive 
-								   embed-responsive-item card-img-top" style="border-style: solid; border-radius: 8ps; border-color: black">
-                                   <img src="img/titles-09.png" width="40%" height="auto" style="margin-top:5px; margin-bottom:15px;
+								   <img src="img/eventsborder.png" alt="imag1" class="img-responsive eventsborder
+								   embed-responsive-item card-img-top"/>
+                                   <img src="img/titles-09.png" width="40%" height="auto" style="margin-top:5px; margin-bottom:20px;
 								   margin-left: auto; margin-right: auto; display:block" class="img-responsive5"/>
-								   <p style="font-family: alto; font-size:14px; color:#000000" class="text-justify">
+								   <p style="font-family: alto; font-size:17px; color:#000000; padding:10px" class="text-justify">
 								   Planning for a meet up with friends or a kitty party? Add a splash of colour to your personal event with Karibo
-								   as our experts bring over the bright palettes, handcrafted personalized lipsticks and lots of fun, right to your doorstep.
+								   <span id="dots">...</span>
+								   <span id="more">as our experts bring over the bright palettes, handcrafted personalized lipsticks and lots of fun, right to your doorstep.</span>
 								   </p>
-								   
+								    <div class="card-read-more" style="margin-top:-20px">
+                                       <button class="btn btn-link btn-block" onclick="myFunction()"id="myBtn">
+                                        Read More
+                                       </button>
+                                    </div>
 								</div>
 							</div>
                             
@@ -122,16 +387,22 @@
                         <div class="main-box">
                             <div class="box4">
 							   <div class="boxx">
-								   <img src="img/giftss.png" alt="imag1" class="img-responsive 
-								   embed-responsive-item card-img-top" style="border-style: solid; border-radius: 8ps; border-color: black">
-								   <img src="img/titles-08.png" width="30%" height="80%" style="margin-top:5px; margin-bottom:20px;
+								   <img src="img/giftsborder.png" alt="imag1" class="img-responsive giftssborder
+								   embed-responsive-item card-img-top"/>
+								   <img src="img/titles-08.png" width="30%" height="80%" style="margin-top:5px; margin-bottom:25px;
 								   margin-left: auto; margin-right: auto; display:block" class="img-responsive5"/>
-								   <p style="font-family: alto; font-size:15px; color:#000000" class="text-justify
+								   <p style="font-family: alto; font-size:17px; color:#000000; padding:10px" class="text-justify
 								   ">
-								   Want to gift something remarkable to your loved ones? How about a customized lipstick? Call us to know more
-								   about our gifting package.
+								   Want to gift something remarkable to your loved ones? 
+								   How about a customized lipstick?<span id="dots1">...</span>
+								   <span id="more1">Call us to know more
+								   about our gifting package.</span>
 								   </p>
-								   
+								     <div class="card-read-more" style="margin-top:15px">
+                                         <button class="btn btn-link btn-block" onclick="myFunctionn()" id="myBtn1">
+                                           Read More
+                                         </button>
+                                     </div>
 								</div>
 							</div>
                         </div>
@@ -139,9 +410,8 @@
                 </div>
             </section>
             <section id="book1">
-                <div class="container mb-4">
-                    <p style="font-family:montserrat; font-size:20px; color:black; max-width: 800px;"
-                        class="text-center mx-auto">
+                <div class="container mb-4 booknowtext">
+                    <p class="text-justify mx-auto">
                         Add some flavour to your personal events like birthdays or get-togethers with Karibo, as we
                         bring
                         in the fun with our custom lipsticks with different shades and texture. If you are looking for
@@ -151,9 +421,9 @@
             </section>
 
             <section id="showcase1">
-                <div class="container">
-                    <h1 style="font-family:montserrat bolder; font-size:30px; color:white; 
-			 margin-top:30px; margin-bottom: 0px; text-align:left" class="text-justify h1-text-responsive">CREATE YOUR OWN LIPSTICK</h1>
+                <div class="container makelipstickhead">
+                    
+			  <img src="img/Titles-11.png" width="40%" height="auto" style="margin-top:15px" class="img-responsive align-items-center center-block"/>
                 </div>
             </section>
             <section id="newsletter2">
@@ -169,58 +439,50 @@
                                                 <div class="carousel-inner d-flex flex-row m-0 w-100" role="listbox">
                                                     <div class="carousel-item col-6 active">
                                                         <center>
-                                                            <h2
-                                                                style="font-size:20px; font-family:montserrat; color: golden">
-                                                                Step 1</h2>
+                                                            <p class="corouselsteps">
+                                                                Step 1</p>
                                                         </center>
-                                                        <a href="#" class="thumbnail"><img src="img/step1.jpg"
-                                                                alt="Image" style="width: 100%; border-radius: 15%"></a>
+                                                        <img src="img/step1.jpg"
+                                                                alt="Image" style="width: 100%; border-radius: 15%">
                                                         <center>
-                                                            <h2
-                                                                style="font-size:20px; font-weight:bold; font-family:montserrat; color: grey">
-                                                                Mix the color</h2>
+                                                            <p class="corouselname">
+                                                                Mix the color</p>
                                                         </center>
                                                     </div>
                                                     <div class="carousel-item col-6">
                                                         <center>
-                                                            <h2
-                                                                style="font-size:20px; font-family:montserrat; color: golden">
-                                                                Step 2</h2>
+                                                            <p class="corouselsteps">
+                                                                Step 2</p>
                                                         </center>
-                                                        <a href="#" class="thumbnail"><img src="img/step2.jpg"
-                                                                alt="Image" style="width: 100%; border-radius: 15%"></a>
+                                                        <img src="img/step2.jpg"
+                                                                alt="Image" style="width: 100%; border-radius: 15%">
                                                         <center>
-                                                            <h2
-                                                                style="font-size:20px; font-weight:bold; font-family:montserrat; color: grey">
-                                                                Choose your texture</h2>
+                                                            <p class="corouselname">
+                                                                Choose your texture</p>
                                                         </center>
                                                     </div>
                                                     <div class="carousel-item col-6">
                                                         <center>
-                                                            <h2
-                                                                style="font-size:20px; font-family:montserrat; color: golden">
-                                                                Step 3</h2>
+                                                            <p class="corouselsteps">
+                                                                Step 3</p>
                                                         </center>
-                                                        <a href="#" class="thumbnail"><img src="img/step3.jpg"
-                                                                alt="Image" style="width: 100%; border-radius: 15%"></a>
+                                                        <img src="img/step3.jpg"
+                                                                alt="Image" style="width: 100%; border-radius: 15%">
                                                         <center>
-                                                            <h2
-                                                                style="font-size:20px; font-weight:bold; font-family:montserrat; color: grey">
-                                                                Add the essence</h2>
+                                                            <p class="corouselname">
+                                                                Add the essence</p>
                                                         </center>
                                                     </div>
                                                     <div class="carousel-item col-6">
                                                         <center>
-                                                            <h2
-                                                                style="font-size:20px; font-family:montserrat; color: golden">
-                                                                Step 4</h2>
+                                                            <p class="corouselsteps">
+                                                                Step 4</p>
                                                         </center>
-                                                        <a href="#" class="thumbnail"><img src="img/step4.jpg"
-                                                                alt="Image" style="width: 100%; border-radius: 15%"></a>
+                                                        <img src="img/step4.jpg"
+                                                                alt="Image" style="width: 100%; border-radius: 15%">
                                                         <center>
-                                                            <h2
-                                                                style="font-size:20px; font-weight:bold; font-family:montserrat; color: grey">
-                                                                Carry it with style</h2>
+                                                            <p class="corouselname">
+                                                                Carry it with style</p>
                                                         </center>
                                                     </div>
 
@@ -244,7 +506,7 @@
 
 
                         </div>
-                        <div class="col-12 col-xl-6">
+                        <div class="col-12 col-xl-6 videobox">
                             <div class="video-box">
                             <div class="box6"></div>
                             <div class="box5">
@@ -262,25 +524,25 @@
             </section>
 
             <section id="book">
-                <div class="container p-0">
+                <div class="container-fluid p-0 showondesktop">
                     <div class="row m-0">
                         <div class="col-md-6 p-0">
-                            <div class="d-flex align-items-center justify-content-center"
+                            <div class="d-flex align-items-center justify-content-center animalimg" 
                                 style="height: 180px;">
-                                <img src="./img/suggestions_logo.JPG" style="width: 100%;" />
+                                <img src="./img/suggesion.png" class="img-responsive"/>
                             </div>
                         </div>
                         <div class="col-md-6">
                         </div>
                     </div>
                 </div>
+				
             </section>
 
 
             <section id="showcase3">
-                <div class="container">
-                        <img src="img/text-08.png" width="40%" height="auto" style="margin-top:15px; margin-bottom:8px" class="img-responsive5"/>
-                    
+                <div class="container appealhead">
+                    <img src="img/text-08.png" width="35%" height="auto" style="margin-top:15px" class="img-responsive align-items-center center-block"/>
                 </div>
             </section>
             <section id="newsletter3">
@@ -292,9 +554,8 @@
                                 <img src="img/guy.jpg" style="width:100%">
                         </div>
                         </div>
-                        <div class="col-12 col-lg-6">
-                            <p style="font-size:20px; color:#ffffff; margin-top:30px;"
-                                class="text-justify">
+                        <div class="col-12 col-lg-6 appealtext">
+                            <p class="text-justify">
                                 At Karibo Cosmetics, we prioritize
                                 quality over quantity and hence, invest
                                 time and effort to create the best
@@ -334,15 +595,23 @@
          <section id="newsletter4">
 
             <div class="container">
+			   <div class="foundershead">
                 <img src="img/text-09.png" width="50%" height="auto" style="margin-top:15px; margin-bottom:8px" class="img-responsive5"/>
-
+			   </div>
+			   <div class="founderstext">
+                <p class="text-justify mx-auto">
+                        It was a coffee break that led founders Bhakti Bhanushali and Jasmine Shah to conceptualize Karibo. 
+						Being in the corporate sector, makeup was a part and parcel of their life but our founders didn’t miss out 
+						that the conventional products were doing more harm than good. So to see the change, 
+						they became the change with Karibo’s line of custom made and organic lipsticks.</p>
+			   </div>
             </div>
-
+            
         </section>
 		
 		<div class="container-fluid" style="padding-bottom:25px">
             <div class="row">
-			   
+			   <!--
 				<div class="col-12 col-md-6" style="margin-top:30px; margin-bottom:30px"><div class="item">
 				   <div class="plr30">
 				     <div class="plr30 testimonialBase">
@@ -390,7 +659,7 @@
 					  </div>
 				   </div>
 				</div></div>
-				
+				-->
 		
             </div>
         </div>
@@ -427,69 +696,51 @@
 
     <section id="newsletter7" class="py-4">
         <div class="container">
-            <h1 style="font-family:montserrat display bold; font-weight:bolder; font-size:40px; color:#D8C794; 
-		   margin-top:7px; text-align:center">FAQs</h1>
-            <div style="max-width: 700px; margin-left: auto; margin-right: auto;">
+		    <div class="faqhead">
+              <center>
+			  <img src="img/Titles-10.png" width="15%" height="auto" style="margin-top:15px; margin-bottom:8px" class="img-responsive align-items-center"/>
+              </center>
+			 </div>
+			<div style="max-width: 700px; margin-left: auto; margin-right: auto;">
                 <div class="row m-0">
-                    <div class="col-md-6 py-3">
-                        <p style="font-size:15px; color:#ffffff">How long does a consultation take?</p>
-                        <p style="font-size:15px; color:#A3A2A2" class="text-justify">A detailed consultation takes
+                    <div class="col-md-6 py-3 faqtext">
+                        <p style="color:#ffffff" class="boldtext">How long does a consultation take?</p>
+                        <p style="color:#A3A2A2" class="text-justify lighttext">A detailed consultation takes
                             about 20 minutes.</p>
-                        <p style="font-size:15px; color:#ffffff">What happens during the consultation?</p>
-                        <p style="font-size:15px; color:#A3A2A2" class="text-justify">During the consultation, we work
+                        <p style="color:#ffffff" class="boldtext">What happens during the consultation?</p>
+                        <p style="color:#A3A2A2" class="text-justify lighttext">During the consultation, we work
                             on the
                             colours that match your personality,
                             undertones, and skin colour keeping in mind
                             your colour preference. With the final outcome,
                             we derive a colour as per your want.</p>
-                        <p style="font-size:15px; color:#ffffff">Can I make group bookings?</p>
-                        <p style="font-size:15px; color:#A3A2A2" class="text-justify">We can cater for group bookings
+                        <p style="color:#ffffff" class="boldtext">Can I make group bookings?</p>
+                        <p style="color:#A3A2A2" class="text-justify lighttext">We can cater for group bookings
                             and have
                             facilities for a minimum of 6 people. We also
                             take events appointments like birthday, kittyparty,
                             weddings, and other such events</p>
 
                     </div>
-                    <div class="col-md-6 py-3">
-                        <p style="font-size:15px; color:#ffffff">How long does a consultation take?</p>
-                        <p style="font-size:15px; color:#A3A2A2" class="text-justify">A detailed consultation takes
-                            about 20minutes.</p>
-                        <p style="font-size:15px; color:#ffffff">What happens during the consultation?</p>
-                        <p style="font-size:15px; color:#A3A2A2" class="text-justify">During the consultation, we work
-                            on the
-                            colours that match your personality,
-                            undertones, and skin colour keeping in mind
-                            your colour preference. With the final outcome,
-                            we derive a colour as per your want.</p>
-                        <p style="font-size:15px; color:#ffffff">Can I make group bookings?</p>
-                        <p style="font-size:15px; color:#A3A2A2" class="text-justify">We can cater for group bookings
-                            and have
-                            facilities for a minimum of 6 people. We also
-                            take events appointments like birthday, kittyparty,
-                            weddings, and other such events</p>
+                    <div class="col-md-6 py-3 faqtext">
+                        <p style="color:#ffffff" class="boldtext">Can I make more than one lipstick shade during a single consultation?</p>
+                        <p style="color:#A3A2A2" class="text-justify lighttext">AWith all the pleasure, you can! There is always
+							scope for one more shade, after all! We can
+							customize a variety of lipsticks or lip balms for
+							you in a single consultation.</p>
+                        <p style="color:#ffffff" class="boldtext">I don’t want lipstick but i was wondering if I can create my own lip balm instead?</p>
+                        <p style="color:#A3A2A2" class="text-justify lighttext">Of course! You can choose to customize your
+							own lip balm, lipstick or both.</p>
+                        <p style="color:#ffffff" class="boldtext">Can I choose my own lipstick case?</p>
+                        <p style="color:#A3A2A2" class="text-justify lighttext">Oh Yes! We have a couple of options for you to
+							choose from.</p>
                     </div>
                 </div>
             </div>
         </div>
 	   
       </section>
-	  <section id="showcase3" class="py-4">
-            <div class="container">
-                <div class="row m-0">
-                    <div class="col-md-4">
-                        <img src="img/aa1.jpg" alt="Image" style="width:100%; height: 100%;">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/aa2.jpg" alt="Image" style="width:100%; height: 100%;">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/appeal4.jpg" alt="Image" style="width:100%; height: 100%; 
-						border-style:solid; border-width:3px; border-color:#FCF6BA">
-                    </div>
-                </div>
-            </div>
-
-        </section>
+	  
 		<div style="height:6px; background-color:#ffffff"></div>
    
 	<footer class="flex-rw align-items-center" style="background-color:#000000; padding-left:50px">
@@ -497,10 +748,10 @@
 	  <ul class="footer-list-top" style="margin-bottom:25px; width:6">
 		<li>
 		  <img src="img/Karibologo.png" alt="Site logo"style="height: 50%; width: 50%; margin-top:10px">
-		  <li><p style="color:#ffffff; font-family:Alto; font-size-adjust; padding-right:75px; margin-top:20px">It was a coffee break that led founders Bhakti Bhanushali 
-		  and Jasmine Shah to conceptualize Karibo. Being in the corporate sector, makeup was a part and parcel 
-		  of their life but our founders didn’t miss out that the conventional products were doing more harm than good. So to see the change, 
-		  they became the change with Karibo’s line of custom made and organic lipsticks.</p></li>
+		  <li><p class="footertext">At Karibo Cosmetics, 
+		  we prioritize quality over quantity and hence, invest time and effort to create the best customized lipsticks for you! 
+		  We ensure that our development process is organic, safe and transparent - as a result, what you see is what you get! 
+		  We are on a mission to blend cosmetics with skincare - Join us!</p></li>
 		<li><p style="color:#ffffff; margin-left: px; margin-top:15px; font-size:14px">Mumbai, Maharshtra</p></li>
 	  </ul>
 	  <ul class="footer-list-top" style="margin-bottom:55px">
@@ -605,6 +856,39 @@
                 }
             }
         });
+		
+function myFunction() {
+  
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+
+function myFunctionn() {
+  var dots = document.getElementById("dots1");
+  var moreText = document.getElementById("more1");
+  var btnText = document.getElementById("myBtn1");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
     </script>
     
 </body>
