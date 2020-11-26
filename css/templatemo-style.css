@@ -1,6 +1,10 @@
 /* 
 
-Karibo India 
+Journey Template 
+http://www.templatemo.com/tm-511-journey
+
+Primary color (light blue)  : #69c6ba
+Highlight color (pink)		: #c66995
 --------------------------------------
 
 */
@@ -144,7 +148,7 @@ p:last-child { margin-bottom: 0; }
     position: relative;
     z-index: 40;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 @media screen and max-width(727px){
     .tm-banner-row.heading{
@@ -599,7 +603,7 @@ footer p { color: white; }
 
 @media screen and (max-width: 826px) {
 
-    .tm-banner-row-header { padding-top: 120px; }
+    .tm-banner-row-header { padding-top: 50px; }
 
     .tm-recommended-place-wrap {
         display: flex;
@@ -656,7 +660,7 @@ footer p { color: white; }
 
 @media screen and (max-width: 767px) {
     .tm-banner-row {
-        padding-top: 80px;
+        padding-top: 60px;
         padding-bottom: 50px;
     }
 
@@ -1048,9 +1052,10 @@ Custom media queries
 }
 
 .blue-column {
-  color:white;
+  color:#ffffff;
   background-color: Black;
   height: auto;
+  padding-bottom: 10px;
 }
 .blue-column h1{
 	width:auto;
@@ -1059,7 +1064,34 @@ Custom media queries
 .blue-column p{
 	font-size:20px;
 }
-
+.fonthead2 p{
+	font-family:alto; font-size:20px; color:#ffffff; max-width: 800px;
+}
+.booknowtext p{
+	font-family:alto; font-size:20px; color:black; max-width: 800px;
+}
+.corouselsteps{
+	font-size:18px; font-family:alto; color: golden;
+}
+.animalimg img{
+	width: 100%; height: 180px;
+}
+.appealtext p{
+	font-size:20px; color:#ffffff; margin-top:30px;
+}
+.founderstext p{
+	font-family:alto; font-size:20px; color:black; max-width: 800px; padding-top:20px;
+}
+.faqtext .boldtext{
+	font-size: 15px;
+}
+.faqtext .lighttext{
+	font-size: 14px;
+}
+.footertext{
+	 text-align:justify;
+	 color:#ffffff; font-family:Alto; font-size: 12px; padding-right:75px; margin-top:20px;
+}
 .green-column {
   height: 100%;
   width: 100%;
@@ -1164,7 +1196,7 @@ Custom media queries
 
 /* Newsletter1 */
 #newsletter1{
-  padding:15px;
+  padding:24px;
   color:#ffffff;
   background:black;
   position: relative;
@@ -1221,12 +1253,16 @@ Custom media queries
     width: 100%;
   }
   #newsletter1 .box4 {
-    width: 80%;
+    width: 100%;
+	
   }
 
   #newsletter1 .box3 {
     width: 85%;
   }
+	.boxx p{
+		font-size: 25px;
+	}
 }
 
 /*
@@ -1331,7 +1367,7 @@ Custom media queries
 /* Corousel */
 .carousel {
     margin-bottom: 0;
-    padding: 0 40px 30px 40px;
+    padding: 0 0px 0px 0px;
 }
 /* The controlsy */
 .carousel-control {
@@ -1352,6 +1388,9 @@ Custom media queries
 	top: auto;
 	bottom: -10px;
 	margin-right: -19px;
+}
+.corouselname{
+	font-size:20px; font-weight:bold; font-family:alto; color: grey;
 }
 
 /*newsletter7*/
@@ -1512,6 +1551,10 @@ footer{
         display: block;
         visibility: visible;
     }
+	
+	.boxx p{
+		font-size: 30px;
+	}
 }
 /* MD */
 @media (min-width: 768px) {
@@ -1540,6 +1583,10 @@ footer{
         display: block;
         visibility: visible;
     }
+	
+	.boxx p{
+		font-size: 25px;
+	}
 }
 /* LG */
 @media (min-width: 991px) {
@@ -1675,6 +1722,7 @@ footer{
 	.boxx.text-res{
 	    font-size: none;
 	}
+	
 }
 
 @media screen and (max-width: 1033px) {
@@ -1685,6 +1733,7 @@ footer{
 	.boxx.text-res{
 	    font-size: none;
 	}
+	
 }
 
 @media screen and (max-width: 991px) {
@@ -1695,6 +1744,7 @@ footer{
 	.boxx.text-res{
 	    font-size: none;
 	}
+	
 }
 
 @media screen and (max-width: 986px) {
@@ -1705,6 +1755,7 @@ footer{
 	.boxx.text-res{
 	    font-size: none;
 	}
+	
 
 }
 
@@ -1716,6 +1767,7 @@ footer{
 	.boxx.text-res{
 	    font-size: none;
 	}
+	
 }
 
 @media screen and (max-width: 826px) {
@@ -1727,6 +1779,7 @@ footer{
 	.boxx.text-res{
 	    font-size: none;
 	}
+	
 }
 
 @media screen and (max-width: 767px) {
@@ -1748,6 +1801,10 @@ footer{
 	.boxx.text-res{
 	    font-size: none;
 	}
+	.boxx{
+		height:auto;
+	}
+	
 }
 
 
@@ -1764,10 +1821,32 @@ footer{
 	padding-top:10px;
 	padding-bottom: 17px;
 	padding-right: 10px;
-	border-radius: 10px;
-	box-shadow: 0 5px 5px rgba(0,0,0,0.15);
 }
 .boxx .img1{
+	width: 100%;
+	margin-bottom: 0px;
+	padding-right:10px;
+}
+
+.boxx p{
+	margin-top: -20px;
+	overflow: hidden;
+	
+}
+.car{
+	width: 105%;
+	float: left;
+	margin: 0px 0px;
+	background-color: #ffffff;
+	padding-left: 10px;
+	padding-top:10px;
+	padding-bottom: 17px;
+	padding-right: 10px;
+	border-radius: 10px;
+	border-color: black;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+}
+.cad-img-top{
 	width: 100%;
 	border-radius:  px;
 	margin-bottom: 0px;
@@ -1775,10 +1854,14 @@ footer{
 	object-fit: cover;
 	
 }
-.boxx p{
+.crd p{
 	margin-top: -20px;
 	line-height: 28px;
 	height: 110px;
 	overflow: hidden;
 	
+}
+
+.boxx#more:after{
+	min-height: 500px;
 }
