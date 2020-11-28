@@ -24,7 +24,6 @@
 }
 .card-read-more button {
   text-decoration: none !important;
-  padding:10px;
   font-weight:600;
   text-transform: uppercase
 }
@@ -181,7 +180,8 @@
      /* start of phone styles */
      /* It's possible to hide the image if the screen becomes too small */
 .newhead{
-	 width: 100%;
+	 width: 112%;
+	 margin-left: -15px;
 	 margin-top: 0px;
 	 }   
 .blue-column p{
@@ -250,6 +250,13 @@
 .footertext{
      font-size: 10px;
 }
+.eventsword p{
+     word-spacing: -1px;
+}
+.giftsword p{
+     word-spacing: -1px;
+}
+
 }
 @media screen and (max-width: 320px) {
 .box6{
@@ -270,6 +277,13 @@
 }
 .footertext{
       font-size: 8px;
+}.eventsword p{
+     word-spacing: 1px;
+	 margin-left: -7px;
+}
+.giftsword p{
+     word-spacing: -1.8px;
+	 margin-left: -8px;
 }
 }
 </style>
@@ -365,7 +379,7 @@
                     <div class="d-flex flex-row flex-wrap justify-content-center">
                         <div class="main-box ml-0">
                             <div class="box4">
-							    <div class="boxx">
+							    <div class="boxx eventsword">
 								   <img src="img/eventsborder.png" alt="imag1" class="img-responsive eventsborder
 								   embed-responsive-item card-img-top"/>
                                    <img src="img/titles-09.png" width="40%" height="auto" style="margin-top:5px; margin-bottom:20px;
@@ -375,9 +389,10 @@
 								   <span id="dots">...</span>
 								   <span id="more">as our experts bring over the bright palettes, handcrafted personalized lipsticks and lots of fun, right to your doorstep.</span>
 								   </p>
-								    <div class="card-read-more" style="margin-top:-20px">
-                                       <button class="btn btn-link btn-block" onclick="myFunction()"id="myBtn">
-                                        Read More
+								    <div class="card-read-more" style="margin-top:-10px">
+                                       <button class="center-block responsive" onclick="myFunction()" id="myBtn" style="background-color: #000000; color: #ffffff;
+										 width: 40%; font-weight:bold">
+                                           <h6>Read More</h6>
                                        </button>
                                     </div>
 								</div>
@@ -386,7 +401,7 @@
                         </div>
                         <div class="main-box">
                             <div class="box4">
-							   <div class="boxx">
+							   <div class="boxx giftsword">
 								   <img src="img/giftsborder.png" alt="imag1" class="img-responsive giftssborder
 								   embed-responsive-item card-img-top"/>
 								   <img src="img/titles-08.png" width="30%" height="80%" style="margin-top:5px; margin-bottom:25px;
@@ -399,8 +414,9 @@
 								   about our gifting package.</span>
 								   </p>
 								     <div class="card-read-more" style="margin-top:15px">
-                                         <button class="btn btn-link btn-block" onclick="myFunctionn()" id="myBtn1">
-                                           Read More
+										 <button class="btn-link btn-block center-block responsive" onclick="myFunctionn()" id="myBtn1" style="background-color: #000000; color: #ffffff;
+										 width: 40%; font-weight:bold">
+                                           <h6>Read More</h6>
                                          </button>
                                      </div>
 								</div>
@@ -724,7 +740,7 @@
                     </div>
                     <div class="col-md-6 py-3 faqtext">
                         <p style="color:#ffffff" class="boldtext">Can I make more than one lipstick shade during a single consultation?</p>
-                        <p style="color:#A3A2A2" class="text-justify lighttext">AWith all the pleasure, you can! There is always
+                        <p style="color:#A3A2A2" class="text-justify lighttext">With all the pleasure, you can! There is always
 							scope for one more shade, after all! We can
 							customize a variety of lipsticks or lip balms for
 							you in a single consultation.</p>
