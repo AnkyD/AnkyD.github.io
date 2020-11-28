@@ -1,10 +1,7 @@
 /* 
 
-Journey Template 
-http://www.templatemo.com/tm-511-journey
-
-Primary color (light blue)  : #69c6ba
-Highlight color (pink)		: #c66995
+Lipsticks Website 
+Karibo 
 --------------------------------------
 
 */
@@ -1624,7 +1621,9 @@ footer{
 
 @media (max-width: 450px) {
   .logo-center {
-    width: 100%;
+    width: 70%;
+	margin-bottom: -50px;
+	margin-top: -30px;
   }
 }
 
